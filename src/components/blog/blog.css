@@ -1,0 +1,270 @@
+.blog {
+  width: 65%;
+  margin: auto;
+  margin-top: 40px;
+}
+.blog h2 {
+  margin: 10px 0;
+  font-size: 44px;
+  font-weight: 700;
+}
+.blog_header {
+  display: flex;
+}
+.blog_header h5 {
+  font-weight: 500;
+  font-size: 18px;
+}
+.blog_header p {
+  margin: 0 10px;
+}
+.blog_img {
+  text-align: center;
+  margin: 10px 0;
+}
+.blog_img img {
+  width: 50%;
+}
+.blog_content {
+  font-size: 20px;
+  margin: 30px 0;
+}
+.blog_container {
+  width: 80%;
+  display: flex;
+  margin: auto;
+}
+.bloglist {
+  margin: auto;
+  margin-top: 40px;
+  width: 30%;
+}
+.blogItem {
+  padding: 5px;
+  margin: 8px 0;
+  border-bottom: 1px solid #e1e1e1;
+  cursor: pointer;
+}
+.blogtitle h5 {
+  font-size: 17px;
+  font-weight: 700;
+}
+.bloglist h4 {
+  border-bottom: 1px solid #e1e1e1;
+  padding-bottom: 6px;
+}
+.two-line-ellipsis {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+}
+.blogs a {
+  color: inherit;
+  text-decoration: none;
+}
+.like {
+  display: flex;
+  margin: 0 5px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.comments {
+  width: 80%;
+  margin: auto;
+}
+.likes {
+  display: flex;
+  width: 67%;
+  justify-content: space-between;
+}
+.like {
+  color: gray;
+  background: inherit;
+  border: none;
+  outline: none !important;
+  height: fit-content;
+}
+.red {
+  color: black;
+}
+.comment-form {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: opacity 0.3s, max-height 0.3s;
+  display: flex;
+  flex-direction: column;
+  width: 67%;
+  box-shadow: 1px 0px 10px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.comment-form.active {
+  opacity: 1;
+  max-height: fit-content; /* Adjust the height based on your design */
+}
+.comment-form input,
+textarea,
+button {
+  margin: 10px 0;
+}
+.comment-form button {
+  border-radius: 5px;
+}
+.allComments {
+  width: 67%;
+}
+.comment_item {
+  padding: 8px 16px;
+  box-shadow: black;
+  box-shadow: 1px 0px 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 13px;
+}
+.commentHead{
+  display: flex;
+}
+.commentHead p {
+  font-size: 14px;
+  color: gray;
+}
+.commentShowBtn {
+  border-radius: 4px;
+}
+.userIcon{
+  background-color: #5bcbf3;
+  padding: 1px;
+  font-size: 24px;
+  display: block;
+  width: 42px;
+  height: 42px;
+  text-align: center;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+@media only screen and (max-width: 700px) {
+  .blog {
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+  }
+  .blog_container {
+    width: 90%;
+  }
+  .blog h2 {
+    margin: 8px 0;
+    font-size: 30px;
+  }
+  .blog_content {
+    font-size: 16px;
+    margin: 30px 0;
+  }
+  .bloglist h4 {
+    font-size: 15px;
+  }
+  .blogtitle h5 {
+    font-size: 14px;
+    font-weight: 700;
+  }
+  .blogBody p {
+    font-size: 13px;
+  }
+  .comments {
+    width: 91%;
+  }
+  .like {
+    font-size: 16px;
+  }
+  .commentShowBtn {
+    font-size: 14px;
+  }
+  .commentHead p {
+    font-size: 13px;
+  }
+  .commentHead h5 {
+    font-size: 17px;
+    margin-bottom: 0;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .blog h2 {
+    margin: 10px 0;
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .blog_header h5 {
+    font-weight: 500;
+    font-size: 16px;
+    margin: 0 11px;
+  }
+  .blog_img {
+    text-align: center;
+    margin: 10px 0;
+  }
+  .blog_img img {
+    width: 80%;
+  }
+  .blog_content {
+    font-size: 17px;
+    margin: 30px 0;
+  }
+  .blog_container {
+    width: 90%;
+    flex-direction: column;
+  }
+  .bloglist {
+    margin: auto;
+    margin-top: 40px;
+    width: 83%;
+  }
+  .bloglist {
+    margin: auto;
+    margin-top: 20px;
+    width: 83%;
+  }
+  .blog {
+    width: 85%;
+    margin: auto;
+    margin-top: 20px;
+  }
+  .blog h2 {
+    margin: 5px 0;
+    font-size: 21px;
+    font-weight: 700;
+  }
+  .blog_img img {
+    width: 60%;
+  }
+  .comments {
+    width: 77%;
+    margin-top: 20px;
+    }
+    .likes {
+        width: 100%;
+    }
+    .allComments {
+        width: 100%;
+    }
+}
+@media only screen and (max-width : 390px){
+    .blog {
+        width: 97%;
+        margin-top: 10px;
+    }
+    .bloglist {
+        margin-top: 16px;
+        width: 98%;
+    }
+    .comments {
+        width: 89%;
+        margin-top: 10px;
+    }
+    .blog_content {
+        font-size: 15px;
+        margin: 20px 0;
+    }
+}

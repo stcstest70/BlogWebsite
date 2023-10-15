@@ -1,0 +1,36 @@
+.modal-body input, .modal-body textarea, .modal-body select{
+    margin: 12px 0px;
+    width: 100%;
+    background: #e3f5fd;
+    border-radius: 15px;
+    padding: 4px 12px;
+    border: 1px solid black;
+}
+.btns{
+    display: flex;
+    justify-content: space-between;
+}
+.tableC{
+    width: 100%;
+}
+.tableC ul{
+    list-style: none;
+    padding: 0;
+}
+.tablecontainer{
+    width: 80%;
+    margin: auto;
+}
+.home_top{
+    padding-top: 20px;
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.modalImage{
+    text-align: center;
+}
+.modalImage img{
+    width: 100px;
+}
